@@ -8,7 +8,7 @@ export default function Home() {
     <div className="box w-full h-screen ">
       <Nav />
       <Menu />
-      <div className="flex gap-2 justify-center items-center mt-30">
+      <div className="flex gap-2 justify-center items-center mt-0 ml-40">
         {" "}
         <Card
           image="./img/Thumbnail.jpg"
@@ -32,11 +32,7 @@ export default function Home() {
 "
         />
       </div>
-     
-
-
-
-      <div className="flex gap-2 justify-center items-center mt-30">
+      <div className="flex gap-2 justify-center items-center mt-30 ml-40">
         {" "}
         <Card
           image="./img/Thumbnail.jpg"
@@ -60,57 +56,70 @@ export default function Home() {
 "
         />
       </div>{" "}
+      <div className="flex flex-col gap-5 relative items-center   justify-center ">
+        <div className="flex items-center  absolute top-40 left-39">
+          {" "}
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            x="0px"
+            y="0px"
+            width="35"
+            height="35"
+            viewBox="0 0 48 48"
+          >
+            <path
+              fill="#ff3d00"
+              d="M29.103,2.631c4.217-2.198,9.438-0.597,11.658,3.577c2.22,4.173,0.6,9.337-3.617,11.534l-3.468,1.823	c2.987,0.109,5.836,1.75,7.328,4.555c2.22,4.173,0.604,9.337-3.617,11.534L18.897,45.37c-4.217,2.198-9.438,0.597-11.658-3.577	s-0.6-9.337,3.617-11.534l3.468-1.823c-2.987-0.109-5.836-1.75-7.328-4.555c-2.22-4.173-0.6-9.337,3.617-11.534	C10.612,12.346,29.103,2.631,29.103,2.631z M19.122,17.12l11.192,6.91l-11.192,6.877C19.122,30.907,19.122,17.12,19.122,17.12z"
+            ></path>
+            <path
+              fill="#fff"
+              d="M19.122,17.12v13.787l11.192-6.877L19.122,17.12z"
+            ></path>
+          </svg>{" "}
+          <h1 className="text-3xl">Shorts</h1>
+        </div>
 
- <div className="flex flex-col gap-5 items-center justify-center mt-0">
- <div className="flex items-center pt-50 mr-365 "> <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 48 48">
-<path fill="#ff3d00" d="M29.103,2.631c4.217-2.198,9.438-0.597,11.658,3.577c2.22,4.173,0.6,9.337-3.617,11.534l-3.468,1.823	c2.987,0.109,5.836,1.75,7.328,4.555c2.22,4.173,0.604,9.337-3.617,11.534L18.897,45.37c-4.217,2.198-9.438,0.597-11.658-3.577	s-0.6-9.337,3.617-11.534l3.468-1.823c-2.987-0.109-5.836-1.75-7.328-4.555c-2.22-4.173-0.6-9.337,3.617-11.534	C10.612,12.346,29.103,2.631,29.103,2.631z M19.122,17.12l11.192,6.91l-11.192,6.877C19.122,30.907,19.122,17.12,19.122,17.12z"></path><path fill="#fff" d="M19.122,17.12v13.787l11.192-6.877L19.122,17.12z"></path>
-</svg> <h1 className="text-4xl">Shorts</h1>
-</div>
+        <div
+          className="flex gap-7 overflow-scroll  ml-110 mt-30 
+"
+        >
+          <Shorts
+            short="./img/short.avif"
+            text="    These guys have it so easy 😂  "
+            texth5="5.5M views"
+          />
 
-<div className="flex gap-7 overflow-scroll
-">
-   <Shorts
-        short="./img/short.avif"
-        text="    These guys have it so easy 😂  "
-        texth5="5.5M views"
-      />
+          <Shorts
+            short="./img/short2.avif"
+            text="    I FLASHED S1MPLE IN FPL!!!  "
+            texth5="5.5M views"
+          />
 
-             <Shorts
-        short="./img/short2.avif"
-        text="    I FLASHED S1MPLE IN FPL!!!  "
-        texth5="5.5M views"
-      />
+          <Shorts
+            short="./img/short3.avif"
+            text="    This crispy pork belly is so fragrant! #asmr #delicious #eat  "
+            texth5="12.5M views"
+          />
+          <Shorts
+            short="./img/short4.avif"
+            text="    Harder the better  "
+            texth5="2M views"
+          />
 
-             <Shorts
-        short="./img/short3.avif"
-        text="    This crispy pork belly is so fragrant! #asmr #delicious #eat  "
-        texth5="12.5M views"
-      />
-                <Shorts
-        short="./img/short4.avif"
-        text="    Harder the better  "
-        texth5="2M views"
-      />
+          <Shorts
+            short="./img/short5.avif"
+            text="   Sugar Daddy 😎 "
+            texth5="16M views"
+          />
 
-    
-                <Shorts
-        short="./img/short5.avif"
-        text="   Sugar Daddy 😎 "
-        texth5="16M views"
-      />
-
-                <Shorts
-        short="./img/short4.avif"
-        text="    Harder the better  "
-        texth5="2M views"
-      />
-
-</div>
-        
-    
-
- </div>
-     <div className="flex gap-2 justify-center items-center mt-30">
+          <Shorts
+            short="./img/short4.avif"
+            text="    Harder the better  "
+            texth5="2M views"
+          />
+        </div>
+      </div>
+      <div className="flex gap-2 justify-center items-center  ml-40 mt-0">
         {" "}
         <Card
           image="./img/Thumbnail.jpg"
@@ -134,9 +143,7 @@ export default function Home() {
 "
         />
       </div>{" "}
-
-
-           <div className="flex gap-2 justify-center items-center mt-30">
+      <div className="flex gap-2 justify-center items-center mt-30 ml-40">
         {" "}
         <Card
           image="./img/Thumbnail.jpg"
@@ -160,9 +167,7 @@ export default function Home() {
 "
         />
       </div>{" "}
-
-
-           <div className="flex gap-2 justify-center items-center mt-30">
+      <div className="flex gap-2 justify-center items-center  ml-40 mt-30">
         {" "}
         <Card
           image="./img/Thumbnail.jpg"
@@ -186,7 +191,6 @@ export default function Home() {
 "
         />
       </div>{" "}
-
     </div>
   );
 }

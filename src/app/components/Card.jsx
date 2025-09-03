@@ -1,6 +1,6 @@
 export function Card(props) {
   return (
-    <div className="flex  mt-30 flex-col gap-10 w-[390px] h-[230px]  ">
+    <div className="flex  mt-9 flex-col gap-10 w-[390px] h-[230px]  ">
       <img src={props.image} alt="" className="w-130px h-130px" />
       <div className="flex gap-4 flex-col">
         <div className=""> 
