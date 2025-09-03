@@ -1,6 +1,6 @@
 export function Nav (){ 
 return       <nav className="flex gap-10 mt-10  items-center justify-center ">
-        <div className="icon-container  absolute left-15 top-3 mt-10 flex flex-col gap-15 ">
+        <div className="icon-container absolute left-4 top-4 flex flex-col pt-7 gap-10 w-16">
           <svg 
             xmlns="http://www.w3.org/2000/svg"
             width="25"
