@@ -1,7 +1,7 @@
-import { Card } from "./components/Card";
-import { Nav } from "./components/Nav";
-import { Menu } from "./components/Menu";
-import { Shorts } from "./components/Shorts";
+import { Card } from "../components/Card";
+import { Nav } from "../components/Nav";
+import { Menu } from "../components/Menu";
+import { Shorts } from "../components/Shorts";
 
 export default function Home() {
   return (
@@ -57,7 +57,7 @@ export default function Home() {
         />
       </div>{" "}
       <div className="flex flex-col gap-5 relative items-center   justify-center ">
-        <div className="flex items-center  absolute top-40 left-39">
+        <div className="flex items-center  absolute top-45 left-50">
           {" "}
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -80,7 +80,7 @@ export default function Home() {
         </div>
 
         <div
-          className="flex gap-7 overflow-scroll  ml-110 mt-30 
+          className="flex gap-7 overflow-scroll  ml-53 mt-30 
 "
         >
           <Shorts
