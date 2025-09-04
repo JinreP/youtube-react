@@ -1,6 +1,6 @@
 export function Menu() {
   return (
-    <div className="flex gap-5  justify-center pt-10 overflow-hidden   ps-40 ">
+    <div className="flex gap-5 cursor-pointer justify-center pt-10 overflow-hidden   ps-40 ">
       <p className="rounded-2xl text-center hover:bg-black hover:text-white text-1xl w-[50px] h-[30px] bg-gray-500 ">
         All
       </p>
