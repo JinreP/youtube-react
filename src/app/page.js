@@ -6,9 +6,9 @@ import { Shorts } from "../components/Shorts";
 export default function Home() {
   return (
     <div className="box w-full h-screen ">
-      <Nav />
+      <Nav home="Home" shortText="Shorts" subscribe="Subscription" />
       <Menu />
-      <div className="flex gap-2 justify-center items-center mt-0 ml-40">
+      <div className="flex gap-5 justify-center items-center mt-0 ml-40">
         {" "}
         <Card
           image="./img/Thumbnail.jpg"
@@ -32,7 +32,7 @@ export default function Home() {
 "
         />
       </div>
-      <div className="flex gap-2 justify-center items-center mt-30 ml-40">
+      <div className="flex gap-5 justify-center items-center mt-30 ml-40">
         {" "}
         <Card
           image="./img/Thumbnail.jpg"
