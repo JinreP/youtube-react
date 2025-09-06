@@ -5,7 +5,7 @@ import { Shorts } from "../components/Shorts";
 
 export default function Home() {
   return (
-    <div className="box w-full h-screen ">
+    <div className="box w-full min-h-screen pt-32">
       <Nav
         speedLogo="./img/speed-logo.jpg"
         huxn="./img/huxn.jpg"
@@ -16,7 +16,7 @@ export default function Home() {
         neo="./img/neo.jpg"
       />
       <Menu />
-      <div className="flex gap-5 justify-center items-center mt-0 ml-60">
+      <div className="flex gap-5 justify-center items-center mt-0 ml-60 px-4">
         {" "}
         <Card
           image="./img/Thumbnail.jpg"
@@ -40,7 +40,7 @@ export default function Home() {
 "
         />
       </div>
-      <div className="flex gap-5 justify-center items-center mt-30 ml-60">
+      <div className="flex gap-5 justify-center items-center mt-30 ml-0 md:ml-60 px-4">
         {" "}
         <Card
           image="./img/Thumbnail.jpg"
@@ -65,7 +65,7 @@ export default function Home() {
         />
       </div>{" "}
       <div className="flex flex-col gap-5 relative items-center   justify-center ">
-        <div className="flex items-center  absolute top-45 left-50">
+        <div className="flex items-center absolute top-45 left-4 md:left-60">
           {" "}
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -87,10 +87,7 @@ export default function Home() {
           <h1 className="text-3xl">Shorts</h1>
         </div>
 
-        <div
-          className="flex gap-7 overflow-scroll  ml-120 mt-30 
-"
-        >
+        <div className="flex gap-7 overflow-x-auto overflow-y-hidden ml-160 mt-30 pr-10 pb-4">
           <Shorts
             short="./img/short.avif"
             text="    These guys have it so easy 😂  "
