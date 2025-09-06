@@ -6,9 +6,17 @@ import { Shorts } from "../components/Shorts";
 export default function Home() {
   return (
     <div className="box w-full h-screen ">
-      <Nav home="Home" shortText="Shorts" subscribe="Subscription" />
+      <Nav
+        speedLogo="./img/speed-logo.jpg"
+        huxn="./img/huxn.jpg"
+        tushig="./img/tushig.jpg"
+        mftv="./img/mf-tv.jpg"
+        saudio="./img/saudio.jpg"
+        randomlogo="./img/random-logo.jpg"
+        neo="./img/neo.jpg"
+      />
       <Menu />
-      <div className="flex gap-5 justify-center items-center mt-0 ml-40">
+      <div className="flex gap-5 justify-center items-center mt-0 ml-60">
         {" "}
         <Card
           image="./img/Thumbnail.jpg"
@@ -32,7 +40,7 @@ export default function Home() {
 "
         />
       </div>
-      <div className="flex gap-5 justify-center items-center mt-30 ml-40">
+      <div className="flex gap-5 justify-center items-center mt-30 ml-60">
         {" "}
         <Card
           image="./img/Thumbnail.jpg"
@@ -80,7 +88,7 @@ export default function Home() {
         </div>
 
         <div
-          className="flex gap-7 overflow-scroll  ml-53 mt-30 
+          className="flex gap-7 overflow-scroll  ml-120 mt-30 
 "
         >
           <Shorts
@@ -119,7 +127,7 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className="flex gap-2 justify-center items-center  ml-40 mt-0">
+      <div className="flex gap-2 justify-center items-center  ml-60 mt-0">
         {" "}
         <Card
           image="./img/Thumbnail.jpg"
@@ -143,7 +151,7 @@ export default function Home() {
 "
         />
       </div>{" "}
-      <div className="flex gap-2 justify-center items-center mt-30 ml-40">
+      <div className="flex gap-2 justify-center items-center mt-30 ml-60">
         {" "}
         <Card
           image="./img/Thumbnail.jpg"
@@ -167,7 +175,7 @@ export default function Home() {
 "
         />
       </div>{" "}
-      <div className="flex gap-2 justify-center items-center  ml-40 mt-30">
+      <div className="flex gap-2 justify-center items-center  ml-60 mt-30">
         {" "}
         <Card
           image="./img/Thumbnail.jpg"
