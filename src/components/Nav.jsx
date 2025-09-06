@@ -15,7 +15,7 @@ export function Nav(props) {
         />
       </svg>
       <div className="icon-container absolute left-4 top-30 flex flex-col pt-7 gap-10 w-[230px] h-screen overflow-y-auto overflow-x-hidden">
-        <div className="flex items-center gap-5">
+        <div className="flex items-center hover:bg-gray-500 rounded-2xl p-2 text-white w-[200px] gap-5">
           {" "}
           <svg
             className="flex-shrink-0 bi bi-house"
@@ -30,7 +30,7 @@ export function Nav(props) {
           <p>Home</p>
         </div>
 
-        <div className="flex gap-5 ">
+        <div className="flex items-center hover:bg-gray-500 rounded-2xl p-2 text-white w-[200px] gap-5">
           <svg
             className="flex-shrink-0"
             xmlns="http://www.w3.org/2000/svg"
@@ -51,7 +51,7 @@ export function Nav(props) {
           </svg>
           <p>Shorts</p>
         </div>
-        <div className="flex gap-5 items-center">
+        <div className="flex items-center hover:bg-gray-500 rounded-2xl p-2 text-white w-[200px] gap-5">
           <svg
             className="flex-shrink-0"
             xmlns="http://www.w3.org/2000/svg"
@@ -71,7 +71,7 @@ export function Nav(props) {
           </svg>
           <p>Subscription</p>
         </div>
-        <div className="flex items-center gap-3">
+        <div className="flex items-center hover:bg-gray-500 rounded-2xl p-2 text-white w-[200px] gap-3">
           <p>You </p>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -88,7 +88,7 @@ export function Nav(props) {
           </svg>
         </div>
 
-        <div className="flex gap-5 items-center">
+        <div className="flex items-center hover:bg-gray-500 rounded-2xl p-2 text-white w-[200px] gap-5">
           {" "}
           <svg
             className="flex-shrink-0"
@@ -106,7 +106,7 @@ export function Nav(props) {
           </svg>
           <p>History</p>
         </div>
-        <div className="flex gap-5 items-center">
+        <div className="flex items-center hover:bg-gray-500 rounded-2xl p-2 text-white w-[200px] gap-5">
           <svg
             className="flex-shrink-0"
             xmlns="http://www.w3.org/2000/svg"
@@ -127,7 +127,7 @@ export function Nav(props) {
           <p>Playlist</p>
         </div>
 
-        <div className="flex gap-5 items-center">
+        <div className="flex items-center hover:bg-gray-500 rounded-2xl p-2 text-white w-[200px] gap-5">
           <svg
             className="flex-shrink-0"
             xmlns="http://www.w3.org/2000/svg"
@@ -143,7 +143,7 @@ export function Nav(props) {
           <p>Your Videos</p>
         </div>
 
-        <div className="flex gap-5 items-center">
+        <div className="flex items-center hover:bg-gray-500 rounded-2xl p-2 text-white w-[200px] gap-5">
           <svg
             className="flex-shrink-0"
             xmlns="http://www.w3.org/2000/svg"
@@ -159,7 +159,7 @@ export function Nav(props) {
           <p>Watch later</p>
         </div>
 
-        <div className="flex gap-5 items-center">
+        <div className="flex items-center hover:bg-gray-500 rounded-2xl p-2 text-white w-[200px] gap-5">
           <svg
             className="flex-shrink-0"
             xmlns="http://www.w3.org/2000/svg"
@@ -173,7 +173,7 @@ export function Nav(props) {
           </svg>
           <p>Liked videos</p>
         </div>
-        <div className="flex gap-5 items-center">
+        <div className="flex items-center hover:bg-gray-500 rounded-2xl p-2 text-white w-[200px] gap-5">
           <svg
             className="flex-shrink-0"
             xmlns="http://www.w3.org/2000/svg"
@@ -188,7 +188,7 @@ export function Nav(props) {
           <p>Your clips</p>
         </div>
 
-        <div className="flex gap-2 items-center">
+        <div className="flex items-center hover:bg-gray-500 rounded-2xl p-2 text-white w-[200px] gap-2">
           <p>Subscriptions</p>
           <svg
             className="flex-shrink-0"
@@ -206,7 +206,7 @@ export function Nav(props) {
           </svg>
         </div>
 
-        <div className="flex gap-5 items-center">
+        <div className="flex items-center hover:bg-gray-500 rounded-2xl p-2 text-white w-[200px] gap-5">
           <img
             src={props.tushig}
             alt=""
@@ -215,7 +215,7 @@ export function Nav(props) {
           <p>Tushig</p>
         </div>
 
-        <div className="flex gap-5 items-center">
+        <div className="flex items-center hover:bg-gray-500 rounded-2xl p-2 text-white w-[200px] gap-5">
           <img
             src={props.huxn}
             alt=""
@@ -223,7 +223,7 @@ export function Nav(props) {
           />
           <p>HuXn WebDev</p>
         </div>
-        <div className="flex gap-5 items-center">
+        <div className="flex items-center hover:bg-gray-500 rounded-2xl p-2 text-white w-[200px] gap-5">
           <img
             src={props.saudio}
             alt=""
@@ -232,7 +232,7 @@ export function Nav(props) {
           <p>SAudio</p>
         </div>
 
-        <div className="flex gap-5 items-center">
+        <div className="flex items-center hover:bg-gray-500 rounded-2xl p-2 text-white w-[200px] gap-5">
           <img
             src={props.mftv}
             alt=""
@@ -241,7 +241,7 @@ export function Nav(props) {
           <p>MF tv </p>
         </div>
 
-        <div className="flex gap-5 items-center">
+        <div className="flex items-center hover:bg-gray-500 rounded-2xl p-2 text-white w-[200px] gap-5">
           <img
             src={props.randomlogo}
             alt=""
@@ -250,7 +250,7 @@ export function Nav(props) {
           <p>SpeeduMon</p>
         </div>
 
-        <div className="flex gap-5 items-center">
+        <div className="flex items-center hover:bg-gray-500 rounded-2xl p-2 text-white w-[200px] gap-5">
           <img
             src={props.speedLogo}
             alt=""
@@ -259,7 +259,7 @@ export function Nav(props) {
           <p>IShowSpeed</p>
         </div>
 
-        <div className="flex gap-5 items-center">
+        <div className="flex items-center hover:bg-gray-500 rounded-2xl p-2 text-white w-[200px] gap-5">
           <svg
             className="flex-shrink-0"
             xmlns="http://www.w3.org/2000/svg"
@@ -279,7 +279,7 @@ export function Nav(props) {
         <div>
           <p>Explore</p>
         </div>
-        <div className="flex gap-5 items-center">
+        <div className="flex items-center hover:bg-gray-500 rounded-2xl p-2 text-white w-[200px] gap-5">
           <svg
             className="flex-shrink-0"
             xmlns="http://www.w3.org/2000/svg"
@@ -296,7 +296,7 @@ export function Nav(props) {
           <p>Music</p>
         </div>
 
-        <div className="flex gap-5 items-center">
+        <div className="flex items-center hover:bg-gray-500 rounded-2xl p-2 text-white w-[200px] gap-5">
           <svg
             className="flex-shrink-0"
             xmlns="http://www.w3.org/2000/svg"
@@ -311,7 +311,7 @@ export function Nav(props) {
           </svg>
           <p>Live</p>
         </div>
-        <div className="flex gap-5 items-center">
+        <div className="flex items-center hover:bg-gray-500 rounded-2xl p-2 text-white w-[200px] gap-5">
           <svg
             className="flex-shrink-0"
             xmlns="http://www.w3.org/2000/svg"
@@ -326,7 +326,7 @@ export function Nav(props) {
           </svg>
           <p>Gaming</p>
         </div>
-        <div className="flex gap-5 items-center">
+        <div className="flex items-center hover:bg-gray-500 rounded-2xl p-2 text-white w-[200px] gap-5">
           <svg
             className="flex-shrink-0"
             xmlns="http://www.w3.org/2000/svg"
@@ -342,7 +342,7 @@ export function Nav(props) {
           <p>News</p>
         </div>
 
-        <div className="flex gap-5 items-center">
+        <div className="flex items-center hover:bg-gray-500 rounded-2xl p-2 text-white w-[200px] gap-5">
           <svg
             className="flex-shrink-0"
             xmlns="http://www.w3.org/2000/svg"
@@ -356,7 +356,7 @@ export function Nav(props) {
           </svg>
           <p>Sports</p>
         </div>
-        <div className="flex gap-5 items-center">
+        <div className="flex items-center hover:bg-gray-500 rounded-2xl p-2 text-white w-[200px] gap-5">
           <svg
             className="flex-shrink-0"
             xmlns="http://www.w3.org/2000/svg"
@@ -371,7 +371,7 @@ export function Nav(props) {
           <p>Learning</p>
         </div>
 
-        <div className="flex gap-5 items-center">
+        <div className="flex items-center hover:bg-gray-500 rounded-2xl p-2 text-white w-[200px] gap-5">
           <img
             src="./img/clothes-hanger.png"
             alt=""
@@ -429,7 +429,7 @@ export function Nav(props) {
           </svg>
           <p>Youtube Kids</p>
         </div>
-        <div className="flex gap-5 items-center">
+        <div className="flex items-center hover:bg-gray-500 rounded-2xl p-2 text-white w-[200px] gap-5">
           <svg
             className="flex-shrink-0"
             xmlns="http://www.w3.org/2000/svg"
@@ -445,7 +445,7 @@ export function Nav(props) {
           <p>Settings</p>
         </div>
 
-        <div className="flex gap-5 items-center">
+        <div className="flex items-center hover:bg-gray-500 rounded-2xl p-2 text-white w-[200px] gap-5">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
@@ -459,7 +459,7 @@ export function Nav(props) {
           <p>Report History</p>
         </div>
 
-        <div className="flex gap-5 items-center">
+        <div className="flex items-center hover:bg-gray-500 rounded-2xl p-2 text-white w-[200px] gap-5">
           <svg
             className="flex-shrink-0"
             xmlns="http://www.w3.org/2000/svg"
@@ -476,7 +476,7 @@ export function Nav(props) {
           <p>Help</p>
         </div>
 
-        <div className="flex gap-5 items-center">
+        <div className="flex items-center hover:bg-gray-500 rounded-2xl p-2 text-white w-[200px] gap-5">
           <svg
             className="flex-shrink-0"
             xmlns="http://www.w3.org/2000/svg"
@@ -514,20 +514,23 @@ export function Nav(props) {
         <h3>© 2025 Google LLC</h3>
       </div>
 
-      <div className="bg-[url(/img/youtube.logo.png)]  absolute left-15 bg-contain h-[150px]  bg-no-repeat w-[200px]" />
-      <div className="flex gap-2  items-center">
-        <input className=" ml-10  w-[650px] h-[40px] rounded-2xl border-2 text-2xl" />
-        <svg
-          className="flex mt-1.5 "
-          xmlns="http://www.w3.org/2000/svg"
-          width="25"
-          height="25"
-          fill="currentColor"
-          class="bi bi-search"
-          viewBox="0 0 16 16"
-        >
-          <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
-        </svg>
+      <div className="bg-[url(/img/youtube.logo.png)] absolute left-15 bg-contain h-[150px]  bg-no-repeat w-[200px]" />
+      <div className="flex gap-2 items-center">
+        <div className="ml-10 flex items-center w-[650px] relative h-[40px] rounded-2xl border-2 border-gray-800 bg-black text-2xl px-4">
+          <p className="text-white">Search</p>
+          <div className="flex items-center justify-center right-0 absolute rounded-r-2xl h-full w-[50px] bg-gray-700 border-l border-gray-600">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="white"
+              className="bi bi-search"
+              viewBox="0 0 16 16"
+            >
+              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+            </svg>
+          </div>
+        </div>
       </div>
 
       <svg
