@@ -1,6 +1,6 @@
 export function Nav(props) {
   return (
-    <nav className="flex gap-10 mt-10   items-center justify-center ">
+    <nav className="fixed top-0 left-0 right-0 flex gap-10 py-3 bg-black items-center justify-center z-50">
       <svg
         className="absolute left-4 bi bi-list"
         xmlns="http://www.w3.org/2000/svg"
@@ -14,7 +14,7 @@ export function Nav(props) {
           d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
         />
       </svg>
-      <div className="icon-container absolute left-4 top-30 flex flex-col pt-7 gap-10 w-[230px] h-screen overflow-y-auto overflow-x-hidden">
+      <div className="icon-container fixed left-4 top-16 flex flex-col pt-7 gap-10 w-[230px] h-screen overflow-y-auto overflow-x-hidden bg-black z-40">
         <div className="flex items-center hover:bg-gray-500 rounded-2xl p-2 text-white w-[200px] gap-5">
           {" "}
           <svg
@@ -71,7 +71,7 @@ export function Nav(props) {
           </svg>
           <p>Subscription</p>
         </div>
-        <div className="flex items-center hover:bg-gray-500 rounded-2xl p-2 text-white w-[200px] gap-3">
+        <div className="flex items-center rounded-2xl p-2 text-white w-[200px] gap-3">
           <p>You </p>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -188,7 +188,7 @@ export function Nav(props) {
           <p>Your clips</p>
         </div>
 
-        <div className="flex items-center hover:bg-gray-500 rounded-2xl p-2 text-white w-[200px] gap-2">
+        <div className="flex items-center  rounded-2xl p-2 text-white w-[200px] gap-2">
           <p>Subscriptions</p>
           <svg
             className="flex-shrink-0"
