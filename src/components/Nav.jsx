@@ -14,7 +14,7 @@ export function Nav(props) {
           d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
         />
       </svg>
-      <div className="icon-container fixed left-4 top-16 flex flex-col pt-7 gap-10 w-[230px] h-screen overflow-y-auto overflow-x-hidden bg-black z-40">
+      <div className="icon-container fixed left-4 top-16 flex flex-col pt-7 gap-10 w-[200px] h-screen overflow-y-auto overflow-x-hidden bg-black z-40">
         <div className="flex items-center hover:bg-gray-500 rounded-2xl p-2 text-white w-[200px] gap-5">
           {" "}
           <svg
