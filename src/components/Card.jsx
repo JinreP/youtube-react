@@ -5,7 +5,7 @@ export function Card(props) {
       <div className="flex gap-4 flex-col">
         <div className=""> 
             <img src="props.image2" alt=""className="w-30px h-30px" />
-             <p className="text-1xl" style={{ backgroundColor: props.color }}>
+             <p className="text-1xl text-white" style={{ backgroundColor: props.color }}>
           {props.text}{" "}
         </p></div>
       
