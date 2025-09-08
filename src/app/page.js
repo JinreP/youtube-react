@@ -5,7 +5,7 @@ import { Shorts } from "../components/Shorts";
 
 export default function Home() {
   return (
-    <div className="box w-full min-h-screen pt-32">
+    <div className="box w-full min-h-screen pt-32 bg-black">
       <Nav
         speedLogo="./img/speed-logo.jpg"
         huxn="./img/huxn.jpg"
@@ -65,7 +65,7 @@ export default function Home() {
         />
       </div>{" "}
       <div className="flex flex-col gap-5 relative items-center   justify-center ">
-        <div className="flex items-center absolute top-45 left-4 md:left-60">
+        <div className="flex items-center absolute top-45 left-110 ">
           {" "}
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -84,10 +84,10 @@ export default function Home() {
               d="M19.122,17.12v13.787l11.192-6.877L19.122,17.12z"
             ></path>
           </svg>{" "}
-          <h1 className="text-3xl">Shorts</h1>
+          <h1 className="text-3xl text-white">Shorts</h1>
         </div>
 
-        <div className="flex gap-7 overflow-x-auto overflow-y-hidden ml-160 mt-30 pr-10 pb-4">
+        <div className="flex gap-7 overflow-x-auto overflow-y-hidden ml-80 mt-30 pr-10 pb-4">
           <Shorts
             short="./img/short.avif"
             text="    These guys have it so easy 😂  "

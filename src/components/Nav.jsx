@@ -14,7 +14,7 @@ export function Nav(props) {
           d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
         />
       </svg>
-      <div className="icon-container fixed left-4 top-16 flex flex-col pt-7 gap-10 w-[200px] h-screen overflow-y-auto overflow-x-hidden bg-black z-40">
+      <div className="icon-container border-6  fixed left-0 top-16 flex flex-col pt-7 gap-10 w-[220px] h-screen overflow-y-auto overflow-x-hidden bg-black z-40">
         <div className="flex items-center hover:bg-gray-500 rounded-2xl p-2 text-white w-[200px] gap-5">
           {" "}
           <svg
@@ -30,7 +30,7 @@ export function Nav(props) {
           <p>Home</p>
         </div>
 
-        <div className="flex items-center hover:bg-gray-500 rounded-2xl p-2 text-white w-[200px] gap-5">
+        <div className="flex items-center hover:bg-gray-500 rounded-2xl p-2 text-white w-[200px]  gap-5">
           <svg
             className="flex-shrink-0"
             xmlns="http://www.w3.org/2000/svg"
@@ -524,7 +524,7 @@ export function Nav(props) {
               width="20"
               height="20"
               fill="white"
-              className="bi bi-search"
+              className="bi bi-search "
               viewBox="0 0 16 16"
             >
               <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
@@ -534,7 +534,7 @@ export function Nav(props) {
       </div>
 
       <svg
-        className=""
+        className="fill-white "
         xmlns="http://www.w3.org/2000/svg"
         width="25"
         height="25"
@@ -547,6 +547,7 @@ export function Nav(props) {
       </svg>
       <div className="rounded-2xl w-[100px] h-[40px] absolute right-40 flex items-center gap-2 border-2 justify-center">
         <svg
+        className="fill-white "
           xmlns="http://www.w3.org/2000/svg"
           width="25"
           height="25"
@@ -557,10 +558,10 @@ export function Nav(props) {
           <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
           <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
         </svg>
-        <p>Create</p>
+        <p className="text-white">Create</p>
       </div>
       <svg
-        className="absolute right-30"
+        className="absolute  fill-white  right-30"
         xmlns="http://www.w3.org/2000/svg"
         width="25"
         height="25"
