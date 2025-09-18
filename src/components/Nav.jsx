@@ -14,7 +14,7 @@ export function Nav(props) {
           d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
         />
       </svg>
-      <div className="icon-container border-6  fixed left-0 top-16 flex flex-col pt-7 gap-10 w-[220px] h-screen overflow-y-auto overflow-x-hidden bg-black z-40">
+      <div className="icon-container border-2 border-black  fixed left-0 top-16 flex flex-col pt-7 gap-10 w-[250px] h-screen overflow-y-auto overflow-x-hidden bg-black z-40">
         <div className="flex items-center hover:bg-gray-500 rounded-2xl p-2 text-white w-[200px] gap-5">
           {" "}
           <svg
@@ -547,7 +547,7 @@ export function Nav(props) {
       </svg>
       <div className="rounded-2xl w-[100px] h-[40px] absolute right-40 flex items-center gap-2 border-2 justify-center">
         <svg
-        className="fill-white "
+          className="fill-white "
           xmlns="http://www.w3.org/2000/svg"
           width="25"
           height="25"
