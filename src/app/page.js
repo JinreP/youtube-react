@@ -107,7 +107,7 @@ export default function Home() {
           />
           <Shorts
             short="./img/short4.avif"
-            text="    Harder the better  "
+            text="    dsa dsa dsa  "
             texth5="2M views"
           />
 
